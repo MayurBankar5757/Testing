@@ -1,0 +1,97 @@
+
+banka@DESKTOP-PP55I5B MINGW64 /c/Bankar/Testing (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+banka@DESKTOP-PP55I5B MINGW64 /c/Bankar/Testing (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        abc.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+banka@DESKTOP-PP55I5B MINGW64 /c/Bankar/Testing (main)
+$ git add abc.txt
+
+banka@DESKTOP-PP55I5B MINGW64 /c/Bankar/Testing (main)
+$ git commit -m "testing updated"
+[main 1e44837] testing updated
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 abc.txt
+
+banka@DESKTOP-PP55I5B MINGW64 /c/Bankar/Testing (main)
+$ git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 281 bytes | 281.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/MayurBankar5757/Testing.git
+   36a9059..1e44837  main -> main
+branch 'main' set up to track 'origin/main'.
+
+banka@DESKTOP-PP55I5B MINGW64 /c/Bankar/Testing (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+banka@DESKTOP-PP55I5B MINGW64 /c/Bankar/Testing (main)
+$ git pull origin main
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 1001 bytes | 91.00 KiB/s, done.
+From https://github.com/MayurBankar5757/Testing
+ * branch            main       -> FETCH_HEAD
+   1e44837..f4ed40c  main       -> origin/main
+Updating 1e44837..f4ed40c
+Fast-forward
+ TestingProject | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 TestingProject
+
+banka@DESKTOP-PP55I5B MINGW64 /c/Bankar/Testing (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+banka@DESKTOP-PP55I5B MINGW64 /c/Bankar/Testing (main)
+$ git brach yogesh
+git: 'brach' is not a git command. See 'git --help'.
+
+The most similar command is
+        branch
+
+banka@DESKTOP-PP55I5B MINGW64 /c/Bankar/Testing (main)
+$ git branch "yogesh"
+
+banka@DESKTOP-PP55I5B MINGW64 /c/Bankar/Testing (main)
+$ git checkout yogesh
+Switched to branch 'yogesh'
+
+banka@DESKTOP-PP55I5B MINGW64 /c/Bankar/Testing (yogesh)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+banka@DESKTOP-PP55I5B MINGW64 /c/Bankar/Testing (main)
+$ git branch rohit
+
+banka@DESKTOP-PP55I5B MINGW64 /c/Bankar/Testing (main)
+$ git branch -d rohit
+Deleted branch rohit (was f4ed40c).
+
+banka@DESKTOP-PP55I5B MINGW64 /c/Bankar/Testing (main)
